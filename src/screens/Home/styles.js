@@ -1,0 +1,70 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    backgroundColor: "white",
+    height: "100%",
+    alignItems: "center",
+    justifyContent: "space-around",
+    paddingBottom: 128,
+  },
+  title: {
+    color: "#424242",
+  },
+  menu: {
+    flexDirection: "row",
+    paddingTop: 35,
+    paddingBottom: 15,
+    width: "100%",
+    backgroundColor: "#FFFFFF" /*"rgb(255,128,0)"*/,
+    alignItems: "center",
+    justifyContent: "center",
+    borderBottomWidth: 2,
+    borderColor: "#585858",
+  },
+  areaTitle: {
+    width: "70%",
+    fontWeight: "bold",
+    fontSize: 20,
+    color: "white",
+    textAlign: "center",
+  },
+  button: {
+    backgroundColor: "white",
+    borderWidth: 5,
+    borderColor: "#585858",
+    width: 150,
+    height: 150,
+    margin: 10,
+    padding: 40,
+    borderRadius: 100,
+    flexDirection: "row",
+    justifyContent: "space-around",
+    alignItems: "stretch",
+  },
+  buttonText: {
+    color: "white",
+    fontSize: 24,
+  },
+  buttonOut: {
+    textAlign: "right",
+    marginLeft: 90,
+  },
+  buttonProfile: {
+    textAlign: "left",
+    marginRight: 90,
+  },
+  form: {
+    backgroundColor: "white",
+    width: "90%",
+    height: "25%",
+    borderColor: "#585858",
+    borderWidth: 2,
+    borderRadius: 32,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-evenly",
+    paddingVertical: 24,
+    margin: 20,
+  },
+});

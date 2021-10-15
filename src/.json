@@ -1,0 +1,9 @@
+[
+  <View>
+        <View activeOpacity={0.7} style={styles.menu}>
+          <TouchableOpacity style={styles.button} onPress={goHome}>
+            <AntDesign name="arrowleft" size={24} color="white" />
+            <Text style={styles.areaTitle}> Voltar </Text>
+          </TouchableOpacity>
+        </View>
+            ]

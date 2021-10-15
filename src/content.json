@@ -1,0 +1,103 @@
+{
+  "abacaxi": {
+    "titulo": "Abacaxi",
+    "imagem": "../../icones/abacaxi.jpeg",
+    "id": 0
+  },
+
+  "agua": {
+    "titulo": "Água",
+    "imagem": "../icones/agua.jpeg",
+    "id": 1
+  },
+
+  "arroz": {
+    "titulo": "Arroz",
+    "imagem": "../icones/arroz.jpeg",
+    "id": 2
+  },
+
+  "banana": {
+    "titulo": "Banana",
+    "imagem": "../icones/banana.jpeg",
+    "id": 3
+  },
+
+  "carne": {
+    "titulo": "Carne",
+    "imagem": "../icones/carne.jpeg",
+    "id": 4
+  },
+
+  "chocolate": {
+    "titulo": "Chocolate",
+    "imagem": "../icones/chocolate.jpeg",
+    "id": 5
+  },
+
+  "feijao": {
+    "titulo": "Feijão",
+    "imagem": "../icones/feijao.jpeg",
+    "id": 6
+  },
+
+  "laranja": {
+    "titulo": "Laranja",
+    "imagem": "../icones/laranja.jpeg",
+    "id": 7
+  },
+
+  "leite": {
+    "titulo": "Leite",
+    "imagem": "../icones/leite.jpeg",
+    "id": 8
+  },
+
+  "maca": {
+    "titulo": "Maçã",
+    "imagem": "../icones/maca.jpeg",
+    "id": 9
+  },
+
+  "macarrao": {
+    "titulo": "Macarrão",
+    "imagem": "../icones/macarrao.jpeg",
+    "id": 10
+  },
+
+  "manga": {
+    "titulo": "Manga",
+    "imagem": "../icones/manga.jpeg",
+    "id": 11
+  },
+
+  "melancia": {
+    "titulo": "Melancia",
+    "imagem": "../icones/melancia.jpeg",
+    "id": 12
+  },
+
+  "pera": {
+    "titulo": "Pera",
+    "imagem": "../icones/pera.jpeg",
+    "id": 13
+  },
+
+  "pipoca": {
+    "titulo": "Pipoca",
+    "imagem": "../icones/pipoca.jpeg",
+    "id": 14
+  },
+
+  "uva": {
+    "titulo": "Uva",
+    "imagem": "../icones/uva.jpeg",
+    "id": 15
+  }
+}
+
+const getRandomIntegerInclusive = (min, max) =>
+Math.floor(Math.random() * (max - min +1)) + min
+
+cont getRandomContent = () content[getRandomIntegerInclusive(0, content.lenght)]
+console.log(getRandomIntegerInclusive(0, content.lenght)
